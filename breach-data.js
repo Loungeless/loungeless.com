@@ -2,7 +2,7 @@ window.BREACH_BLINDSPOTS_DATA = {
   "schemaVersion": 1,
   "snapshotDate": "2026-07-17",
   "coverage": "A curated, U.S.-weighted ledger built from English-language public sources. Core coverage begins in 2020, with selected landmark cases from 2015 through 2019 and rare earlier exceptions. Non-U.S. cases are included when they are globally significant or provide an unusually strong enterprise control lesson. It is not an exhaustive breach catalog, a breach notification service, or a claim of geographic completeness.",
-  "disclosure": "I work at Vonage, where my role includes Network Powered Solutions. TechBlindspot is my independent personal project. This analysis uses public information and reflects my own views, not those of Vonage, Ericsson, or their affiliates.",
+  "disclosure": "I work at Vonage, where my role includes Network Powered Solutions. Loungeless is my independent personal project. This analysis uses public information and reflects my own views, not those of Vonage, Ericsson, or their affiliates.",
   "records": [
     {
       "id": "sec-x-sim-swap-2024",

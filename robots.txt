@@ -1,0 +1,3 @@
+# Cloudflare owns and prepends the managed crawler and content-signal rules.
+# This origin file adds only the site-owned sitemap location.
+Sitemap: https://loungeless.com/sitemap.xml

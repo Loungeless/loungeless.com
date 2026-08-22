@@ -1,0 +1,8 @@
+.git
+.wrangler
+.assetsignore
+.gitignore
+wrangler.jsonc
+tools
+H_Site_Files
+assets/techblindspot-social.png
