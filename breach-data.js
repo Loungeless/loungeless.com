@@ -1,6 +1,6 @@
 window.BREACH_BLINDSPOTS_DATA = {
   "schemaVersion": 1,
-  "snapshotDate": "2026-07-17",
+  "snapshotDate": "2026-11-17",
   "coverage": "A curated, U.S.-weighted ledger built from English-language public sources. Core coverage begins in 2020, with selected landmark cases from 2015 through 2019 and rare earlier exceptions. Non-U.S. cases are included when they are globally significant or provide an unusually strong enterprise control lesson. It is not an exhaustive breach catalog, a breach notification service, or a claim of geographic completeness.",
   "disclosure": "I work at Vonage, where my role includes Network Powered Solutions. Loungeless is my independent personal project. This analysis uses public information and reflects my own views, not those of Vonage, Ericsson, or their affiliates.",
   "records": [
@@ -45,7 +45,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "change-healthcare-2024",
@@ -96,7 +96,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "midnight-blizzard-microsoft-2023",
@@ -144,7 +144,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "medium",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "unc5537-snowflake-2024",
@@ -190,7 +190,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "okta-support-system-2023",
@@ -230,7 +230,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "cloudflare-thanksgiving-2023",
@@ -271,7 +271,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "medium",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "caesars-vendor-social-engineering-2023",
@@ -310,7 +310,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "medium",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "mgm-resorts-2023",
@@ -364,7 +364,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "low",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "shinyhunters-saas-vishing-2026",
@@ -374,10 +374,10 @@ window.BREACH_BLINDSPOTS_DATA = {
       "sector": "Cross-sector",
       "actor": "ShinyHunters-branded threat activity",
       "timeframe": "Observed Jan. 2026-present",
-      "sortDate": "2026-01-30",
+      "sortDate": "2026-07-13",
       "disclosedDate": "2026-01-30",
       "status": "active",
-      "entryPath": "Voice phishing and victim-branded credential harvesting obtained SSO credentials and MFA codes, then enabled unauthorized device enrollment.",
+      "entryPath": "Voice phishing and victim-branded credential harvesting obtained SSO credentials and MFA codes, then enabled unauthorized device enrollment. Microsoft later documented overlapping ShinyHunters-associated tradecraft that abused OAuth consent and trusted SaaS integrations.",
       "earliestControlFailure": "Social engineering bypassed identity checks and let the attacker register a device or session under the victim's account.",
       "stages": [
         "vishing",
@@ -414,11 +414,18 @@ window.BREACH_BLINDSPOTS_DATA = {
           "published": "2026-01-30",
           "url": "https://cloud.google.com/blog/topics/threat-intelligence/expansion-shinyhunters-saas-data-theft",
           "role": "threat-research"
+        },
+        {
+          "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+          "publisher": "Microsoft Security",
+          "published": "2026-07-13",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+          "role": "threat-research"
         }
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "dprk-remote-it-workers",
@@ -428,7 +435,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       "sector": "Technology and cross-sector employers",
       "actor": "North Korean remote IT-worker networks and facilitators",
       "timeframe": "Observed 2021-present",
-      "sortDate": "2026-04-15",
+      "sortDate": "2026-10-13",
       "disclosedDate": "2022-05-16",
       "status": "active",
       "entryPath": "Workers used stolen or false identities to obtain legitimate remote jobs. U.S.-based laptop farms, remote KVM access, proxy infrastructure, shell companies, and payment accounts made overseas operators appear local.",
@@ -441,7 +448,7 @@ window.BREACH_BLINDSPOTS_DATA = {
         "exfiltration",
         "extortion or theft"
       ],
-      "impact": "DOJ cases describe more than 100 U.S. companies affected in one multi-year scheme, at least 80 stolen identities, more than $5 million in illicit revenue, and access to sensitive source code and export-controlled data. A separate DOJ indictment alleges virtual-currency thefts exceeding $900,000. FBI also reports proprietary-data theft and extortion after workers were discovered.",
+      "impact": "DOJ cases describe more than 100 U.S. companies affected in one multi-year scheme, at least 80 stolen identities, more than $5 million in illicit revenue, and access to sensitive source code and export-controlled data. A separate DOJ indictment alleges virtual-currency thefts exceeding $900,000. FBI also reports proprietary-data theft and extortion after workers were discovered. In October 2026, DOJ announced another indictment covering more than 70 U.S. companies and about $3 million in revenue, with FBI operations seizing about 187 devices from suspected laptop farms. FBI says the workers continue to expand facilitator networks.",
       "networkAssessment": {
         "fit": "supporting",
         "signals": [
@@ -490,11 +497,25 @@ window.BREACH_BLINDSPOTS_DATA = {
           "published": "2024-05-16",
           "url": "https://www.justice.gov/archives/opa/pr/charges-and-seizures-brought-fraud-scheme-aimed-denying-revenue-workers-associated-north",
           "role": "court-and-law-enforcement"
+        },
+        {
+          "title": "Justice Department Announces Coordinated Actions to Combat North Korean Remote IT Worker Schemes Affecting More than 70 U.S. Companies",
+          "publisher": "U.S. Department of Justice",
+          "published": "2026-10-13",
+          "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker",
+          "role": "court-and-law-enforcement"
+        },
+        {
+          "title": "North Korean IT Workers Expanding Use of Facilitators, Broadening Recruitment",
+          "publisher": "FBI Internet Crime Complaint Center",
+          "published": "2026-10-13",
+          "url": "https://www.ic3.gov/PSA/2026/PSA261013",
+          "role": "government-advisory"
         }
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "scattered-spider-social-engineering",
@@ -504,7 +525,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       "sector": "Cross-sector",
       "actor": "Scattered Spider",
       "timeframe": "Observed 2022-present",
-      "sortDate": "2025-07-29",
+      "sortDate": "2026-07-01",
       "disclosedDate": "2023-11-16",
       "status": "active",
       "entryPath": "The group has impersonated IT or help-desk staff through calls and messages, stolen one-time codes, used MFA fatigue, persuaded users to install remote-access tools, and carried out SIM swaps.",
@@ -517,7 +538,7 @@ window.BREACH_BLINDSPOTS_DATA = {
         "data theft",
         "extortion"
       ],
-      "impact": "The campaign has enabled data theft, extortion, and ransomware activity across numerous victim networks.",
+      "impact": "The campaign has enabled data theft, extortion, and ransomware activity across numerous victim networks. A July 2026 DOJ complaint alleges more than 100 network intrusions and more than $100 million in ransom payments.",
       "networkAssessment": {
         "fit": "supporting",
         "signals": [
@@ -538,11 +559,18 @@ window.BREACH_BLINDSPOTS_DATA = {
           "published": "2025-07-29",
           "url": "https://www.cisa.gov/sites/default/files/2025-08/aa23-320a-scattered-spider-508c.pdf",
           "role": "government-advisory"
+        },
+        {
+          "title": "Alleged Member of Criminal Cyber Hacking Group \"Scattered Spider\" Arrested in Finland and Extradited to the United States",
+          "publisher": "U.S. Department of Justice",
+          "published": "2026-07-01",
+          "url": "https://www.justice.gov/opa/pr/alleged-member-criminal-cyber-hacking-group-scattered-spider-arrested-finland-and-extradited",
+          "role": "court-and-law-enforcement"
         }
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "salt-typhoon-network-espionage",
@@ -584,7 +612,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "high",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "volt-typhoon-critical-infrastructure",
@@ -594,7 +622,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       "sector": "Critical infrastructure",
       "actor": "Volt Typhoon",
       "timeframe": "Observed 2021-present",
-      "sortDate": "2024-02-07",
+      "sortDate": "2026-04-23",
       "disclosedDate": "2023-05-24",
       "status": "monitoring",
       "entryPath": "The actor has exploited vulnerabilities in public-facing network appliances, used valid accounts, and relied on built-in administration tools to blend into normal network activity. Compromised small-office routers have also helped conceal source activity.",
@@ -622,11 +650,18 @@ window.BREACH_BLINDSPOTS_DATA = {
           "published": "2024-02-07",
           "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
           "role": "government-advisory"
+        },
+        {
+          "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
+          "publisher": "CISA, NSA, FBI, NCSC-UK, and international partners",
+          "published": "2026-04-23",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
+          "role": "government-advisory"
         }
       ],
       "sourceConfidence": "high",
       "contentPriority": "medium",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     },
     {
       "id": "clop-moveit-2023",
@@ -668,7 +703,7 @@ window.BREACH_BLINDSPOTS_DATA = {
       ],
       "sourceConfidence": "high",
       "contentPriority": "medium",
-      "lastReviewed": "2026-07-16"
+      "lastReviewed": "2026-11-17"
     }
   ]
 };

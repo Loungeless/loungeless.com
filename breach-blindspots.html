@@ -29,7 +29,9 @@
     <meta name="twitter:image:alt" content="Breach Blindspots: The breach is rarely the lesson. The entry path is.">
     <link rel="canonical" href="https://loungeless.com/breach-blindspots">
     <link rel="alternate" type="application/rss+xml" title="Loungeless on Substack" href="https://loungeless.substack.com/feed">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -935,7 +937,7 @@
 </main>
 
 <footer>
-    <p>Tech<span style="color: var(--accent)">Blindspot</span> &middot; Harrison Greanias</p>
+    <p>Tech<span style="color: var(--accent)">Blindspot</span> &middot; Harrison Greanias &middot; &copy; 2026</p>
     <p>This is a research ledger, not a breach notification service or product recommendation.</p>
 </footer>
 
@@ -1250,7 +1252,7 @@
             return;
         }
 
-        elements.snapshot.textContent = `${data.records.length} records | Independent research | U.S.-weighted, core coverage since 2020 | Source cutoff ${formatSnapshot(data.snapshotDate)} | Curated, not exhaustive`;
+        elements.snapshot.textContent = `Data as of ${formatSnapshot(data.snapshotDate)} | ${data.records.length} records | Independent research | U.S.-weighted, core coverage since 2020 | Curated, not exhaustive`;
         elements.coverage.textContent = data.coverage;
         elements.disclosure.textContent = data.disclosure;
         populateFitOptions();
