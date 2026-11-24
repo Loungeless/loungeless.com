@@ -143,8 +143,8 @@ int main(int argc, char **argv) {
     const SocialCard cards[] = {
         {
             "loungeless-social.png",
-            "Lounge less.",
-            "Look closer.",
+            "Lounge less,",
+            "do more.",
             "AI  •  cybersecurity  •  identity  •  enterprise technology",
             "Harrison Greanias"
         },
