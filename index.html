@@ -19,14 +19,14 @@
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Loungeless: Lounge less. Look closer.">
+    <meta property="og:image:alt" content="Loungeless: Lounge less, do more.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@Loungeless">
     <meta name="twitter:creator" content="@Loungeless">
     <meta name="twitter:title" content="Loungeless | Enterprise AI, Security &amp; Trust">
     <meta name="twitter:description" content="Practical, skeptical analysis of AI, cybersecurity, telecom, identity, enterprise technology, and markets.">
     <meta name="twitter:image" content="https://loungeless.com/assets/loungeless-social.png">
-    <meta name="twitter:image:alt" content="Loungeless: Lounge less. Look closer.">
+    <meta name="twitter:image:alt" content="Loungeless: Lounge less, do more.">
     <link rel="canonical" href="https://loungeless.com/">
     <link rel="alternate" type="application/rss+xml" title="Loungeless on Substack" href="https://loungeless.substack.com/feed">
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
@@ -34,6 +34,8 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="me" href="https://loungeless.substack.com">
     <link rel="me" href="https://x.com/Loungeless">
+    <link rel="me" href="https://www.linkedin.com/in/harrisongreanias/">
+    <link rel="me" href="https://github.com/Loungeless">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -57,7 +59,9 @@
                 "sameAs": [
                     "https://loungeless.substack.com",
                     "https://x.com/Loungeless",
-                    "https://www.linkedin.com/in/harrisongreanias/"
+                    "https://www.linkedin.com/in/harrisongreanias/",
+                    "https://substack.com/@loungeless",
+                    "https://github.com/Loungeless"
                 ]
             }
         ]
@@ -234,7 +238,7 @@
         }
 
         .connect { padding-top: 80px; padding-bottom: 120px; }
-        .connect-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+        .connect-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; }
         .connect-card {
             display: flex; flex-direction: column; align-items: center; gap: 0.75rem;
             padding: 1.5rem 1rem; background: var(--bg-card); border: 1px solid var(--border);
@@ -258,7 +262,7 @@
             .hero .subtitle { font-size: 1rem; }
             .start-grid { grid-template-columns: 1fr; }
             .topics-grid { grid-template-columns: 1fr; }
-            .connect-grid { grid-template-columns: repeat(2, 1fr); }
+            .connect-grid { grid-template-columns: repeat(3, 1fr); }
             .nav-links { gap: 1rem; }
             .research-row { grid-template-columns: 1fr; gap: 1.25rem; align-items: start; }
             .article-item:hover { margin: 0; padding: 1.5rem 0; }
@@ -307,7 +311,7 @@
 
 <section class="hero">
     <h1>Lounge<span class="accent">less</span><span class="accent">.</span></h1>
-    <p class="subtitle">Lounge less. Look closer. A field notebook from Harrison Greanias on AI, cybersecurity, telecom, identity, enterprise technology, and markets. I focus on the gap between the demo and production.</p>
+    <p class="subtitle">Lounge less, do more. A field notebook from Harrison Greanias on AI, cybersecurity, telecom, identity, enterprise technology, and markets. I focus on the gap between the demo and production.</p>
     <p class="subtitle" style="margin-top: -0.75rem;">I went legally blind at 10 from Stargardt's disease, tied to the <span style="color: var(--accent)">ABCA4</span> gene. I grew up navigating a world that wasn't built for me, which gave me dark humor, radical candor, and a habit of seeing what other people miss. Loungeless is the invitation to resist passive thinking, leave the comfortable answer, and look at how systems actually work.</p>
     <div class="hero-links">
         <a href="https://loungeless.substack.com" class="primary-link" target="_blank" rel="noopener">
@@ -396,6 +400,11 @@
     <div class="section-label">Writing</div>
     <div class="article-list">
         <article class="article-item">
+            <h3><a class="article-title-link" href="https://loungeless.substack.com/p/microsoft-is-hanging-up-on-your-mfa" target="_blank" rel="noopener">Microsoft Is Hanging Up on Your MFA Texts</a></h3>
+            <p class="article-desc">Entra ID stops sending SMS and voice MFA codes on February 1, 2027. What's retiring, which setups it skips, and how bring-your-own telephony works. Part 1 of 2.</p>
+            <div class="article-meta"><span class="article-tag">Identity &middot; MFA</span> November 2026 &middot; <a href="https://loungeless.substack.com/p/microsoft-is-hanging-up-on-your-mfa" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: underline;">Substack</a> &middot; <a href="https://github.com/Loungeless/entra-byot-vonage" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: underline;">GitHub guide</a></div>
+        </article>
+        <article class="article-item">
             <h3><a class="article-title-link" href="https://loungeless.substack.com/p/before-you-rebuild-every-message" target="_blank" rel="noopener">Before You Rebuild Every Message, Test the Sender</a></h3>
             <p class="article-desc">Enterprise RCS projects often become content projects before anyone tests whether verified sender identity changes trust and response.</p>
             <div class="article-meta"><span class="article-tag">Messaging &middot; Enterprise adoption</span> July 2026 &middot; <a href="https://loungeless.substack.com/p/before-you-rebuild-every-message" target="_blank" rel="noopener" style="color: var(--text-muted); text-decoration: underline;">Substack</a></div>
@@ -455,14 +464,21 @@
                 <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
             </div>
             <span>X / Twitter</span>
-            <span class="connect-handle">Follow on X</span>
+            <span class="connect-handle">@Loungeless</span>
         </a>
         <a href="https://www.linkedin.com/in/harrisongreanias/" class="connect-card" target="_blank" rel="noopener">
             <div class="connect-icon">
                 <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             </div>
             <span>LinkedIn</span>
-            <span class="connect-handle">Harrison Greanias</span>
+            <span class="connect-handle">Connect</span>
+        </a>
+        <a href="https://github.com/Loungeless" class="connect-card" target="_blank" rel="noopener">
+            <div class="connect-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            </div>
+            <span>GitHub</span>
+            <span class="connect-handle">Loungeless</span>
         </a>
         <a href="mailto:admin@pinkmytech.com" class="connect-card">
             <div class="connect-icon">
@@ -476,7 +492,8 @@
 
 <footer>
     <p>Lounge<span style="color: var(--accent)">less</span> &middot; Harrison Greanias &middot; &copy; 2026</p>
-    <p style="margin-top: 0.5rem;">Opinions are my own. Nothing here is investment advice.</p>
+    <p style="margin-top: 0.5rem;">Nothing here is investment advice.</p>
+    <p style="margin-top: 0.5rem;">Disclosure: I work at Vonage. These thoughts are my own, and I'm not representing Vonage.</p>
 </footer>
 
 </body>
